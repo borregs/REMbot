@@ -1,0 +1,21 @@
+{
+  "name": "REMbot",
+  "description": "API tradding bot that uses a variety of tradding techniques in order to proffit from live markets, even when you are not available online",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
