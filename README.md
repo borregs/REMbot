@@ -18,7 +18,7 @@ Usage: trade [options] [selector]
   run trading bot against live market data
 
   Options:
-'''
+
     --conf <path>                     path to optional conf overrides file
     --strategy <name>                 strategy to use
     --order_type <type>               order type to use (maker/taker)
