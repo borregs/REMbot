@@ -18,7 +18,7 @@ Usage: trade [options] [selector]
   run trading bot against live market data
 
   Options:
-
+'''
     --conf <path>                     path to optional conf overrides file
     --strategy <name>                 strategy to use
     --order_type <type>               order type to use (maker/taker)
@@ -56,9 +56,9 @@ Usage: trade [options] [selector]
     --run_for <minutes>               Execute for a period of minutes then exit with status 0 (default: null)
     --debug                           output detailed debug info
     -h, --help                        output usage information
-
+'''
 and also:
-
+'''
 zenbot list-strategies
 
 bollinger
@@ -381,3 +381,4 @@ wavetrend
     --wavetrend_trends=<value>  act on trends instead of limits (default: false)
     --overbought_rsi_periods=<value>  number of periods for overbought RSI (default: 9)
     --overbought_rsi=<value>  sold when RSI exceeds this value (default: 80)
+'''
