@@ -105,7 +105,7 @@ cp conf-sample.js conf.js
 - API keys do NOT need deposit/withdrawal permissions.
 
 
-### Docker (Optional)
+### Docker 
 
 To run Zenbot under Docker, install Docker, Docker Compose, Docker Machine (if necessary) You can follow instructions at https://docs.docker.com/compose/install/
 
